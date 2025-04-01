@@ -1,0 +1,81 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url(calculator2.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+h2 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+label {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#operations{
+    width:93%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 15px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#calculate{ 
+ background-color: #28a745; 
+    color: white; 
+}
+#clear { 
+    background-color: #17a2b8; 
+    color: white; 
+}
+.result {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.history-list {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.history-list li {
+    background-color: #ecf0f1;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    list-style: none;
+}
